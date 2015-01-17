@@ -24,7 +24,7 @@ E =
 PNGDEFRY = pngdefry
 
 # LIBS = -lm
-LIBS = -lz -lm
+LIBS = -L -lz -lm
 # LIBS = -lpng -lz -lm
 #LIBS = ${ZLIB}/libz.a -lm
 
