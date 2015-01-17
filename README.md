@@ -6,11 +6,6 @@ pngdefry is a command line tool for undoing Apple's pngcrush optimizations of pn
 
 The original pngdefry created png's at about 50% of the uncompressed image size. For a full screen iPad Retina png that is about 6mb. With proper compression this should be reduced to about 1.5-2mb, depending on your content.
 
-### Usage
-To put the defried Images in a folder 'defried'
-
-	pngdefry -o defried *.png
-
 ### Installation
 To compile it, run 
 
@@ -21,4 +16,10 @@ from the command line
 If you want to install it to /usr/local run
 
 	make install
+
+### Usage
+To put the defried Images in a folder 'defried'
+
+        pngdefry -o defried *.png
+
 
